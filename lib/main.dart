@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Digital ID Card',
+      title: 'ID Card',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red.shade200),
       ),
       home: HomePage(),
     );
@@ -25,10 +25,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("this is nawshad"),
-          backgroundColor: Colors.pink,
+          title: Text("Student ID card"),
+          backgroundColor: Colors.pink.shade200,
           centerTitle: true,
-          leading: Icon(Icons.add),
         ),
         body: Column()
     );
