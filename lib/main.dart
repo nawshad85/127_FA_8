@@ -45,42 +45,49 @@ class HomePage extends StatelessWidget {
                       radius: 50,
                     )
                   ),
-                  ListTile(
-                    title: Text("Abrar Sami Nawshad", textAlign: TextAlign.center, style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20
-                    ),),
-                    subtitle: Text("Batch: 61st, Department of CSE", textAlign: TextAlign.center)
-                  ),
+                  SizedBox(height: 5),
+                  Text("Abrar Sami Nawshad", style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18,
+                  )),
+                  Text("Batch: 61st, Department of CSE", style: TextStyle(
+                    fontSize: 15,
+                  ),),
+                  SizedBox(height: 10),
                   Divider(thickness: 1.5, color: Colors.grey),
-                  SizedBox(height: 20),
-                  Row(
-                    children: [
-                      SizedBox(width: 20),
-                      Icon(Icons.person, size: 20),
-                      SizedBox(width: 10),
-                      Text("ID: 01822310012101127")
-                    ],
-                  ),
                   SizedBox(height: 10),
-                  Row(
-                    children: [
-                      SizedBox(width: 20),
-                      Icon(Icons.email, size: 20),
-                      SizedBox(width: 10),
-                      Text("Email: abrarsami2021@gmail.com")
-                    ],
-                  ),
-                  SizedBox(height: 10),
-                  Row(
-                    children: [
-                      SizedBox(width: 20),
-                      Icon(Icons.phone, size: 20),
-                      SizedBox(width: 10),
-                      Text("Phone: 01877422003")
-                    ],
-                  ),
-                  SizedBox(height: 20)
+                  ListTile(
+                    title: Center(
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Icon(Icons.person, size: 20),
+                              SizedBox(width: 10),
+                              Text("ID: 0182310012101127")
+                            ],
+                          ),
+                          SizedBox(height: 10),
+                          Row(
+                            children: [
+                              Icon(Icons.email, size: 20),
+                              SizedBox(width: 10),
+                              Text("Email: abrarsami2021@gmail.com")
+                            ],
+                          ),
+                          SizedBox(height: 10),
+                          Row(
+                            children: [
+                              Icon(Icons.phone, size: 20),
+                              SizedBox(width: 10),
+                              Text("Phone: 01877422003")
+                            ],
+                          ),
+                          SizedBox(height: 15),
+                        ],
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),
