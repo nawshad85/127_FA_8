@@ -10,4 +10,4 @@ This is a simple Flutter app that shows a basic student ID card.
 *   The "DEBUG" banner in the corner is turned off.
 
 ## Screenshot
-<img src="screenshots/img.png" alt="App Screenshot" width="300" height="400">
+<img src="screenshots/img.png" alt="App Screenshot" width="300" height="600">
