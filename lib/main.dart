@@ -33,7 +33,8 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Card(
-              color: Colors.lightBlue,
+              // color: Colors.lightBlue,
+            color: Color(0xFFB3E5FC),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
