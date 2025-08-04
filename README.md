@@ -1,16 +1,12 @@
-# idcard
+# Flutter ID Card App
 
-A new Flutter project.
+This is a simple Flutter app that shows a basic student ID card.
 
-## Getting Started
+## What it does:
 
-This project is a starting point for a Flutter application.
+*   Displays a name and ID.
+*   Shows a profile picture in a circle.
+*   Has a pink app bar.
+*   The "DEBUG" banner in the corner is turned off.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##
